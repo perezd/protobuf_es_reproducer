@@ -1,0 +1,37 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@bufbuild/protobuf': 0.1.1
+  '@bufbuild/protoc-gen-es': 0.1.1
+  '@bufbuild/protoplugin': 0.1.1
+
+dependencies:
+  '@bufbuild/protobuf': 0.1.1
+  '@bufbuild/protoc-gen-es': 0.1.1_@bufbuild+protobuf@0.1.1
+  '@bufbuild/protoplugin': 0.1.1
+
+packages:
+
+  /@bufbuild/protobuf/0.1.1:
+    resolution: {integrity: sha512-HAs82bdlN5aUsoTaJNsPd8driezDenOtAh7dVpO5xKEmyB6ibmRIV08MTlIVudnMYbFc1qw7RxhFHoQy0rSvgg==}
+    dev: false
+
+  /@bufbuild/protoc-gen-es/0.1.1_@bufbuild+protobuf@0.1.1:
+    resolution: {integrity: sha512-FFY8GfbMgcgN/nt4DtB+IiLvLmfGjQ7dKYVb6ciKCMymXx5MsRxs4xnJXHtpEv2rDVpDYCOhPkjri8o4AYeSPQ==}
+    engines: {node: '>=14'}
+    hasBin: true
+    peerDependencies:
+      '@bufbuild/protobuf': 0.1.1
+    peerDependenciesMeta:
+      '@bufbuild/protobuf':
+        optional: true
+    dependencies:
+      '@bufbuild/protobuf': 0.1.1
+      '@bufbuild/protoplugin': 0.1.1
+    dev: false
+
+  /@bufbuild/protoplugin/0.1.1:
+    resolution: {integrity: sha512-+zCwqiq6xbeM6OG02+eNCd4Rinu1Mtn+HsjMF8U8h5FazOj1fEP9SnXEabOfImOR83vHfk2jocqzrB4IkSZV2Q==}
+    dependencies:
+      '@bufbuild/protobuf': 0.1.1
+    dev: false
